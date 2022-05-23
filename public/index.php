@@ -1,1 +1,6 @@
-<h1>my website</h1>
+<?php
+
+session_start();
+require_once "../app/core/init.php";
+
+$app = new App();
