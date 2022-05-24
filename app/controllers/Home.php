@@ -5,8 +5,9 @@ class Home extends Controller
 
     public function index()
     {
-        $db = new Database();
-        $db->query();
+        // $db = new Database();
+        // $res = $db->query("SELECT * FROM users", [], 'array');
+        // show($res);
         $data['title'] = "Home";
         $this->view('home', $data);
     }
