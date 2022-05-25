@@ -16,6 +16,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     define("DBNAME", "educator");
     define("DBPASS", "");
     define("DBDRIVER", "mysql");
+    define("ROOT", "http://localhost/educator/public");
 } else {
     //live server
     define("DBHOST", "localhost");
@@ -23,4 +24,6 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     define("DBNAME", "educator");
     define("DBPASS", "");
     define("DBDRIVER", "mysql");
+    //root path eg https://www.yourwebsite.com
+    define("ROOT", "https://");
 }

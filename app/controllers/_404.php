@@ -8,7 +8,7 @@ class _404 extends Controller
 {
     function index()
     {
-        $data['title'] = "404";
+        $data['title'] = "Page not found";
         $this->view('404', $data);
     }
 }

@@ -11,13 +11,13 @@ class Home extends Controller
         $data['title'] = "Home";
         $this->view('home', $data);
     }
-    public function edit()
-    {
-        echo "edit view";
-    }
+    // public function edit()
+    // {
+    //     echo "edit view";
+    // }
 
-    public function delete()
-    {
-        echo "delete ";
-    }
+    // public function delete()
+    // {
+    //     echo "delete ";
+    // }
 }
