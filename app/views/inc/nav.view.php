@@ -33,8 +33,10 @@
                     </ul>
                 </li>
 
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="<?= ROOT ?>/about">About</a></li>
+                <li><a href="<?= ROOT ?>/contact">Contact</a></li>
+                <li><a href="<?= ROOT ?>/login">Login</a></li>
+                <li><a href="<?= ROOT ?>/signup">Signup</a></li>
             </ul>
         </nav><!-- .navbar -->
 

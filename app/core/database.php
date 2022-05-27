@@ -41,6 +41,9 @@ class Database
                     CREATE TABLE IF NOT EXISTS `users` (
                     `id` int(11) NOT NULL AUTO_INCREMENT,
                     `email` varchar(100) NOT NULL,
+                    `firstname` varchar(30) NOT NULL,
+                    `lastname` varchar(30) NOT NULL,
+                    `role` varchar(20) NOT NULL,
                     `password` varchar(255) NOT NULL,
                     `date` datetime DEFAULT NULL,
                     PRIMARY KEY (`id`),

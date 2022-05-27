@@ -3,7 +3,7 @@
 /**
  * app info
  */
-define("APPNAME", "educator app");
+define("APPNAME", "educator");
 define("APPDESC", "Free and paid tutorials");
 define("APPVERSION", "1.0.0");
 
